@@ -1,0 +1,9 @@
+services:
+  amalancalweb:
+    image: amalan06/amalantestweb:test
+    container_name: amalancalweb
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /home/appserver/testweb/simpleweb
