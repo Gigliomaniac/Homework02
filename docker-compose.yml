@@ -1,9 +1,9 @@
 services:
-  amalancalweb:
-    image: amalan06/amalantestweb:test
-    container_name: amalancalweb
+  Domweb:
+    image: gigliomaniac1/homework02:latest
+    container_name: Domweb
     restart: always
     ports:
       - "80:80"
     volumes:
-      - /home/appserver/testweb/simpleweb
+      - /home/appserver
